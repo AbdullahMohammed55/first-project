@@ -1,0 +1,2835 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+
+}
+.header 
+{
+    background-color: rgba(10, 10, 10, 0.829); 
+    width: 100%;
+    position: fixed;   
+    z-index: 2;
+}
+.content 
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.logo img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin: 0;
+    display: inline-block;
+}
+.navbar ~ a 
+{
+    color: red;
+}
+.navbar ul
+{
+    position: absolute;
+    left: 63%;
+    top: 30px;
+
+}
+.navbar ul a li
+{
+    list-style: none;
+    padding: 3px;
+    margin: 7px;
+    font-size: 20px;
+    color: rgba(233, 223, 223, 0.911);
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+}
+ul a
+{
+    text-decoration: none;
+}
+ul a li:hover
+{
+    color: red;
+}
+.contunier1
+{
+    background-image: url(../image/images29.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+.all-text
+{
+    background-color: rgba(7, 6, 6,0.7);
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    
+}
+.text1
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(156, 150, 150);
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.text1 p
+{
+    font-size: 18px;
+    color: rgba(255, 245, 245, 0.85);
+}
+.but
+{
+    text-align: center;
+    margin-left: 45%;
+    position: absolute;
+    top: 60%;
+   
+   
+}
+.but span
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(9, 162, 233);
+}
+.but  button
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 6px;
+    background-color: rgba(44, 44, 224,0.7);
+    cursor: pointer;
+}
+.contunier2
+{
+    margin-top: 70px;
+    /* background-color: gray; */
+}
+.text2 h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.select2
+{
+    width: 80%;
+    margin: auto;
+}
+.con1
+{
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+.con1  .icon1
+{
+    font-size: 70px;
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    top: 15px;
+    margin-right: -30px;
+}
+.con1 h2
+{
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    margin-right: -50px;
+    font-weight: 5px;
+    text-transform: capitalize;
+}
+.con1 p
+{
+    position: absolute;
+    right: px;
+    top: 130;
+    left: 30px;
+    font-weight: 5px;
+    text-transform: lowercase;
+    padding: 5px;
+}
+.con1 a
+{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(52, 109, 214);
+}
+.con1::after
+{
+    content: "";
+    background-color: rgb(22, 20, 20);
+    opacity: 0;
+    width: 0;
+    height:0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.con1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.con2
+{
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    margin: 0 3%;
+    position: relative;
+}
+.con2  .icon2
+{
+    font-size: 70px;
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    top: 15px;
+    margin-right: -30px;
+}
+.con2 h2
+{
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    margin-right: -100px;
+    width: 250px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.con2 p
+{
+    position: absolute;
+    right: px;
+    top: 130;
+    left: 20px;
+    font-weight: 5px;
+    text-transform: lowercase;
+    padding: 5px;
+}
+.con2 a
+{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(52, 109, 214);
+}
+.con2::after
+{
+    content: "";
+    background-color: rgb(22, 20, 20);
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.con2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.con3
+{
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 30%;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+.con3  .icon3
+{
+    font-size: 70px;
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    top: 15px;
+    margin-right: -30px;
+}
+.con3 h2
+{
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    margin-right: -85px;
+    font-weight: 5px;
+    text-transform: capitalize;
+}
+.con3 p
+{
+    position: absolute;
+    right: px;
+    top: 130;
+    left: 30px;
+    font-weight: 5px;
+    text-transform: lowercase;
+    padding: 5px;
+}
+.con3 a
+{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    font-weight: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(52, 109, 214);
+}
+.con3::after
+{
+    content: "";
+    background-color: rgb(22, 20, 20);
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.con3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+} 
+.contunier3
+{
+    background-color: rgb(95, 93, 93);
+    margin-top: 150px;
+}
+.text3 h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 204, 255, 0.705);
+    text-align: center;
+    padding: 50px 0 40px 0;
+}
+.coll1
+{
+    width: 80%;
+    margin: auto;
+}
+.pho
+{
+    margin: 50px;
+}
+.ton1
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+}
+.ton1 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton1 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton1:hover h2
+{
+    color: white;
+}
+.ton1 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton1:hover p
+{
+    color: white;
+}
+.ton1 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton1:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton1:hover .prog
+{
+    visibility: visible;
+}
+.ton1::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.ton2
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+    display: inline-block;
+    margin-left: 535px;
+    margin-top: -345px;
+}
+.ton2 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton2 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton2:hover h2
+{
+    color: white;
+}
+.ton2 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton2:hover p
+{
+    color: white;
+}
+.ton2 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton2:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog1
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton2:hover .prog1
+{
+    visibility: visible;
+}
+.ton2::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.ton3
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+    display: inline-block;
+    margin-left: 1080px;
+    margin-top: -345px;
+}
+.ton3 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton3 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton3:hover h2
+{
+    color: white;
+}
+.ton3 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton3:hover p
+{
+    color: white;
+}
+.ton3 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton3:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog2
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton3:hover .prog2
+{
+    visibility: visible;
+}
+.ton3::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.pho2
+{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.ton4
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+    display: inline-block;
+    margin-top: -40px;
+}
+.ton4 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton4 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton4:hover h2
+{
+    color: white;
+}
+.ton4 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton4:hover p
+{
+    color: white;
+}
+.ton4 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton4:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog3
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton4:hover .prog3
+{
+    visibility: visible;
+}
+.ton4::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton4:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.ton5
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+.ton5 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton5 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton5:hover h2
+{
+    color: white;
+}
+.ton5 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton5:hover p
+{
+    color: white;
+}
+.ton5 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton5:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog4
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton5:hover .prog4
+{
+    visibility: visible;
+}
+.ton5::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton5:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.ton6
+{
+    position: relative;
+    width: 344px;
+    height: 344px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+.ton6 img
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 7px 10px 7px ;
+}
+.ton6 h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 162, 255, 0.521);
+    text-transform: capitalize;
+}
+.ton6:hover h2
+{
+    color: white;
+}
+.ton6 p
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+.ton6:hover p
+{
+    color: white;
+}
+.ton6 i
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 7px 0 7px;
+}
+.ton6:hover i
+{
+    color: gold;
+    font-size: 26px;
+}
+.prog5
+{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    visibility: hidden;
+}
+.ton6:hover .prog5
+{
+    visibility: visible;
+}
+.ton6::after
+{
+    content: "";
+    background-color: black;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ton6:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.contunier4
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.text5 h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 92, 194);
+    padding: 5px;
+}
+.don1
+{
+    padding-top: 17px;
+}
+.lon2 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon2 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon2 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon2
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+}
+.lon2::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon2 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon2 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon2:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon2 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon2:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.lon1
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+.lon1::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon1 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon1 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon1:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon1 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon1:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.lon3
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+}
+.lon3::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon3 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon3 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon3:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon3 p
+{
+    margin: 25px 0 0 65px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon3:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.don2
+{
+    padding-top: 17px;
+}
+.lon4
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+.lon4::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon4:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon4 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon4 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon4:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon4 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon4:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.lon4 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon4 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon4 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon5
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+}
+.lon5::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon5:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon5 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon5 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon5:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon5 p
+{
+    margin: 25px 0 0 80px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon5:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.lon6
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 3%;
+    position: relative;
+}
+.lon6::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(20, 19, 19);
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.lon6:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+}
+.lon6 i
+{
+    display: inline;
+    font-size: 40px;
+    color: rgba(0, 140, 255,0.7);
+    margin: 10px;
+    padding: 5px;                                                                                               ;
+}
+.lon6 h2
+{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    text-transform: capitalize;
+}
+.lon6:hover h2
+{
+    color: white;
+    font-size: 30px;
+    transition: 2s;
+}
+.lon6 p
+{
+    margin: 25px 0 0 65px;
+    padding: 3px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.lon6:hover p
+{
+    color: white;
+    font-size: 18px;
+    transition: 2s;
+}
+.contunier5
+{
+    background-color: rgba(41, 39, 39, 0.438);
+    /* position: relative; */
+}
+.content2
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    margin-bottom: 80px;
+    /* position: relative; */
+}
+.hon1 h2
+{
+    color: rgba(14, 86, 194, 0.836);
+    font-size: 28px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 25px 0 20px 0;
+    text-transform: capitalize;
+}
+.hon1 p
+{
+    width: 625px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.hon2
+{
+    margin: 15px 0 15px 0;
+}
+.hon2 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon2 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.hon3
+{
+    margin: 15px 0 15px 0;
+}
+.hon3 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon3 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.hon4
+{
+    margin: 15px 0 15px 0;
+}
+.hon4 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon4 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.hon5
+{
+    margin: 15px 0 15px 0;
+}
+.hon5 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon5 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.hon6
+{
+    margin: 15px 0 15px 0;
+}
+.hon6 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon6 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.hon7
+{
+    margin: 15px 0 15px 0;
+    position: relative;
+}
+.hon7 i 
+{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    /* display: inline-block; */
+}
+.hon7 p
+{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.image7 img
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 65%;
+    top: 325%;
+}
+.unorder ul
+{
+    margin-top: 5px;
+    margin-left: 1350px;
+    display: inline-block;
+}
+.unorder ul li
+{
+    color: blue;
+    padding-right: 5px;
+    /* color: white; */
+    list-style: circle;
+    padding-left: 10px;
+    display: inline-block;
+    list-style: circle;
+}
+.contunier6
+{
+    background-image: url(../image/download6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding-top: -50px; */
+    height: 400px;
+}
+.content3
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    /* padding-top: -30px; */
+    /* transform: translate(-50% , -50%); */
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.won1
+{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+.won1 i
+{
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.won1 h2
+{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.won1 p
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.won2
+{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.won2 i
+{
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+.won2 h2
+{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.won2 p
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.won3
+{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+}
+.won3 i
+{
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+.won3 h2
+{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.won3 p
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.won4
+{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+.won4 i
+{
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 80px;
+}
+.won4 h2
+{
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.won4 p
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.contunier7
+{
+    margin-bottom: 100px;
+}
+.content4
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    margin-left: 11%;
+}
+.text10 h2
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 0 80px 0;
+}
+.mon1
+{
+    border: 1px solid black;
+    width: 28%;
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+}
+.mon1 h2
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px 0 10px 0;
+}
+.mon1:hover h2
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.8;
+}
+.mon1 .phg1
+{
+    font-size: 35px;
+    width: 100px;
+    height: 80px;
+    margin-left: 160px;
+    text-align: center;
+    font-weight: bold;
+    padding:  5px 0;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.phg1 span
+{
+    font-size: 20px;
+}
+.mon1:hover .phg1
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.6;
+}
+.mon1 .phg2
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon1 .phg3
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon1 .phg4
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon1 button
+{
+    margin-left: 33%;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 142, 142);
+    margin-bottom: 20px;
+    padding: 5px 0 3px 0;
+    width: 140px;
+}
+.mon1:hover button
+{
+    background-color: rgb(18, 88, 194);
+    font-weight: bold;
+    color: red;
+}
+.mon1::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mon1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.mon2
+{
+    border: 1px solid black;
+    width: 28%;
+    margin-top: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: inline-block;
+    position: relative;
+}
+.mon2 h2
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px 0 10px 0;
+}
+.mon2:hover h2
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.8;
+}
+.mon2 .phg5
+{
+    font-size: 35px;
+    width: 100px;
+    height: 80px;
+    margin-left: 160px;
+    text-align: center;
+    font-weight: bold;
+    padding:  5px 0;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.phg5 span
+{
+    font-size: 20px;
+}
+.mon2:hover .phg5
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.6;
+}
+.mon2 .phg6
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon2 .phg7
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon2 .phg8
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon2 button
+{
+    margin-left: 33%;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 142, 142);
+    margin-bottom: 20px;
+    padding: 5px 0 3px 0;
+    width: 140px;
+}
+.mon2:hover button
+{
+    background-color: rgb(18, 88, 194);
+    font-weight: bold;
+    color: red;
+}
+.mon2::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mon2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.mon3
+{
+    border: 1px solid black;
+    width: 28%;
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+}
+.mon3 h2
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px 0 10px 0;
+}
+.mon3:hover h2
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.8;
+}
+.mon3 .phg9
+{
+    font-size: 35px;
+    width: 100px;
+    height: 80px;
+    margin-left: 160px;
+    text-align: center;
+    font-weight: bold;
+    padding:  5px 0;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.phg9 span
+{
+    font-size: 20px;
+}
+.mon3:hover .phg9
+{
+    color: rgb(173, 42, 42);
+    opacity: 0.6;
+}
+.mon3 .phg10
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon3 .phg11
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon3 .phg12
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    text-transform: capitalize;
+    padding: 20px 0 5px 0;
+}
+.mon3 button
+{
+    margin-left: 33%;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 142, 142);
+    margin-bottom: 20px;
+    padding: 5px 0 3px 0;
+    width: 140px;
+}
+.mon3:hover button
+{
+    background-color: rgb(18, 88, 194);
+    font-weight: bold;
+    color: red;
+}
+.mon3::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mon3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.contunier8
+{
+    background-image: url(../image/images13.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.content5
+{
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+    position: relative;
+}
+.non1
+{
+    position: relative;
+    padding-top: 140px;
+}
+.non1 img
+{
+    display: inline;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.non1 h2
+{
+    display: inline;
+    text-transform: capitalize;
+    color: gray;
+    position: absolute;
+    bottom: 100px;
+    left: 125px;
+}
+.non1 h3
+{
+    display: inline;
+    text-transform: capitalize;
+    color: greenyellow;
+    position: absolute;
+    bottom: 80px;
+    left: 125px;
+}
+.non1 p
+{
+    text-transform: capitalize;
+    font-size: 17px;
+    color: rgb(184, 33, 33);
+    font-weight: bold;
+    width: 490px;
+}
+.non2 img
+{
+    display: inline;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 55%;
+    bottom: 120px;
+}
+.non2 h2
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: gray;
+    display: inline;
+    position: absolute;
+    left: 960px;
+    bottom: 180px;
+}
+.non2 h3
+{
+    font-weight: bold;
+    color: greenyellow;
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    left: 960px;
+    bottom: 160px;
+}
+.non2 p
+{
+    font-weight: bold;
+    color: rgb(184, 23, 23);
+    text-transform: capitalize;
+    display: inline;
+    position: absolute;
+    bottom: 78px;
+    left: 850px;
+    width: 490px;
+}
+.contunier9
+{
+    margin-top: 70px;
+}
+.content6
+{
+    width: 80%;
+    margin: auto;
+}
+.team .text14 h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 5px 0 5px 0;
+}
+.gon1
+{
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: relative;
+    display: inline-block;
+}
+.image14 img
+{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    margin-left: 25px;
+}
+.gon1::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(14, 13, 13);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gon1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.text8 h2
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgba(0, 153, 255, 0.685);
+    padding: 10px 0 10px 0;
+}
+.gon1:hover h2
+{
+    color: rgb(51, 50, 50);
+}
+.text8 h3
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.team-icon1
+{
+    background-color: rgb(0, 81, 255);
+    visibility: hidden;
+}
+.gon1:hover .team-icon1
+{
+    visibility: visible;
+}
+.team-icon1 .face
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781); 
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    z-index: 2;
+}
+.team-icon1 .twi
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);    position: absolute;
+    top: 70px;
+    left: 295px;
+    z-index: 2;
+}
+.team-icon1 .lin
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);
+    position: absolute;
+    top: 100px;
+    left: 295px;
+    z-index: 2;
+}
+.gon2
+{
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.433);
+    display: inline-block;
+    margin-left: 180px;
+    position: relative;
+}
+.gon2::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gon2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.image15 img
+{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    margin-left: 25px;
+}
+.text9 h2
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgba(0, 153, 255, 0.685);
+    padding: 10px 0 10px 0;
+}
+.gon2:hover h2
+{
+    color: rgb(51, 50, 50);
+}
+.text9 h3
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.team-icon2
+{
+    background-color: rgb(0, 81, 255);
+    visibility: hidden;
+}
+.gon2:hover .team-icon2
+{
+    visibility: visible;
+}
+.team-icon2 .face1
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781); 
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    z-index: 2;
+}
+.team-icon2 .twi1
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);    position: absolute;
+    top: 70px;
+    left: 295px;
+    z-index: 2;
+}
+.team-icon2 .lin1
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);
+    position: absolute;
+    top: 100px;
+    left: 295px;
+    z-index: 2;
+}
+.gon3
+{
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.433);
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 180px;
+    position: relative;
+}
+.gon3::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gon3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.image16 img
+{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    margin-left: 25px;
+}
+/* .overflow3
+{
+    position: relative;
+}
+.gon3:hover .overflow3
+{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+} */
+.text10 h2
+{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgba(0, 153, 255, 0.685);
+    padding: 10px 0 10px 0;
+}
+.gon3:hover h2
+{
+    color: rgb(51, 50, 50);
+}
+.text10 h3
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.team-icon3
+{
+    background-color: rgb(0, 81, 255);
+    visibility: hidden;
+}
+.gon3:hover .team-icon3
+{
+    visibility: visible;
+}
+.team-icon3 .face2
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781); 
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    z-index: 2;
+}
+.team-icon3 .twi2
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);    position: absolute;
+    top: 70px;
+    left: 295px;
+    z-index: 2;
+}
+.team-icon3 .lin2
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(10, 12, 158, 0.781);
+    position: absolute;
+    top: 100px;
+    left: 295px;
+    z-index: 2;
+}
+
+.contunier10
+{
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+.content8
+{
+    width: 80%;
+    margin: auto;
+}
+.xon1
+{
+    background-color: rgba(212, 209, 209, 0.76);
+    width: 25%;
+    border: 0px solid black ;
+    border-radius: 15px;
+    display: inline-block;
+    height: 600px;
+    position: relative;
+}
+.text20 h2
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: bold;
+}
+.image17
+{
+  margin: 25px 0 15px 0;
+  /* background-color: black; */
+  /* width: 10%; */
+}
+.image17 img
+{
+    width: 250px;
+    height: 250px;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.rec1-icon1 i
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+.use1
+{
+    padding: 0 7px 0 5px;
+}
+.head2
+{
+    padding: 0 3px 0 3px;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 13px;
+    
+}
+.rec1-icon1 h2
+{
+   
+    font-weight: bold;
+}
+.clo1
+{
+    padding: 0 3px 0 3px;
+}
+.head3
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.head4
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.rec1 p
+{
+    padding: 10px 0 7px 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.head5
+{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0 7px 0;
+    margin-left: 10px;
+}
+.rec1 a
+{
+    color: rgba(0, 81, 255, 0.719);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 25px 0 0 0;
+    word-spacing: 12px;
+    margin-left: 10px;
+}
+.xon1::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.xon1:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.xon2
+{
+    background-color: rgba(212, 209, 209, 0.76);
+    width: 25%;
+    border: 0px solid black ;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 12%;
+    height: 600px;
+    position: relative;
+}
+.image18
+{
+  margin: 25px 0 15px 0;
+  /* background-color: black; */
+  /* width: 10%; */
+}
+.image18 img
+{
+    width: 250px;
+    height: 250px;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.rec2-icon2 i
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+.use2
+{
+    padding: 0 7px 0 5px;
+}
+.head6
+{
+    padding: 0 3px 0 3px;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 13px;
+    
+}
+.rec2-icon2 h2
+{
+   
+    font-weight: bold;
+}
+.clo2
+{
+    padding: 0 3px 0 3px;
+}
+.head7
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.head8
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.rec2 p
+{
+    padding: 10px 0 7px 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.head9
+{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0 7px 0;
+    margin-left: 10px;
+}
+.rec2 a
+{
+    color: rgba(0, 81, 255, 0.719);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 25px 0 0 0;
+    word-spacing: 12px;
+    margin-left: 10px;
+}
+.xon2::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.xon2:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.xon3
+{
+    background-color: rgba(212, 209, 209, 0.76);
+    width: 25%;
+    border: 0px solid black ;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 10%;
+    height: 600px;
+    position: relative;
+}
+.image19
+{
+  margin: 25px 0 15px 0;
+  /* background-color: black; */
+  /* width: 10%; */
+}
+.image19 img
+{
+    width: 250px;
+    height: 250px;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.rec3-icon3 i
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+.use3
+{
+    padding: 0 7px 0 5px;
+}
+.head10
+{
+    padding: 0 3px 0 3px;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 13px;
+    
+}
+.rec3-icon3 h2
+{
+   
+    font-weight: bold;
+}
+.clo3
+{
+    padding: 0 3px 0 3px;
+}
+.head11
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.head12
+{
+    padding: 0 3px 0 3px;
+    display: inline;
+    font-size: 13px;
+}
+.rec3 p
+{
+    padding: 10px 0 7px 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.head13
+{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0 7px 0;
+    margin-left: 10px;
+}
+.rec3 a
+{
+    color: rgba(0, 81, 255, 0.719);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 25px 0 0 0;
+    word-spacing: 12px;
+    margin-left: 10px;
+}
+.xon3::after
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.xon3:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+footer
+{
+    background-color: gray;
+    margin-top: 90px;
+    padding-top: -180px;
+    padding-bottom: 0px;
+    /* height: 490px; */
+    /* height: 60; */
+
+}
+.footer-icon5
+{
+    margin-left: 43%;
+    margin-top: 3px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.footer-icon5 .what
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 7px 8px 7px 8px;
+    padding: 5px;
+    background-color: rgba(17, 17, 231, 0.466);
+}
+.footer-icon5 .what:hover
+{
+    background-color: rgba(17, 17, 231, 0.766); 
+}
+.footer-icon5 .foce
+{
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: rgba(17, 17, 231, 0.466);
+    margin: 7px 8px 7px 8px;
+    width: 40px;
+    height: 40px;
+}
+.footer-icon5 .foce:hover
+{
+    background-color: rgba(17, 17, 231, 0.766); 
+}
+.footer-icon5 .goo
+{
+    font-size: 35px;
+    /* font-weight: bold; */
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 7px 8px 7px 8px;
+    padding: 5px;
+    background-color: rgba(17, 17, 231, 0.466);
+}
+.footer-icon5 .goo:hover
+{
+    background-color: rgba(17, 17, 231, 0.766); 
+}
+.footer-icon5 .git
+{
+    font-size: 35px;
+    /* font-weight: bold; */
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 7px 8px 7px 8px;
+    padding: 5px;
+    background-color: rgba(17, 17, 231, 0.466);
+}.footer-icon5 .git:hover
+{
+    background-color: rgba(17, 17, 231, 0.766); 
+}
+.footer-icon5 .ins
+{
+    font-size: 35px;
+    /* font-weight: bold; */
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 7px 8px 7px 8px;
+    background-color: rgba(17, 17, 231, 0.466);
+}
+.footer-icon5 .ins:hover
+{
+    background-color: rgba(17, 17, 231, 0.766); 
+}
+.own1 p
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0 20px 0;
+
+}
+.content30
+{
+    padding: 10px 0 10px 0;
+    margin-top: 50px;
+}
+.foot-image
+{
+  padding-top: 135px;
+  padding-bottom: -800px;
+}
+.foot-image img
+{
+    width: 150px;
+    height: 120px;
+    border: solid black;
+    border-radius: 20px;
+   margin-left: 48%;
+   padding: 30px 0 30px 0;
+}
